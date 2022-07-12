@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.dylan.coroutine.CoroutineActivity">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/text1Mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="FLOW基本用法" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/text2Mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="STATE_FLOW用法" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/text3Mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="SHARED_FLOW用法" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
