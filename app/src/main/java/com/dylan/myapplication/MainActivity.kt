@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.dylan.coroutine.CoroutineActivity
+import com.dylan.customview.CustomViewActivity
 import com.dylan.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,9 @@ class MainActivity : AppCompatActivity() {
             }
             coroutineTestMb.setOnClickListener {
                 startActivity(Intent(this@MainActivity, CoroutineActivity::class.java))
+            }
+            customViewTestMb.setOnClickListener {
+                startActivity(Intent(this@MainActivity, CustomViewActivity::class.java))
             }
         }
     }
